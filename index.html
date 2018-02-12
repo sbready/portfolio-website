@@ -1,0 +1,353 @@
+<!DOCTYPE HTML>
+<!--
+	Relativity by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+
+<head>
+	<title>Steven Bready Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+
+			<!-- Logo -->
+			<div class="logo">
+				<a href="#banner" class="more scrolly">Steven<strong>Bready</strong>.com</a>
+			</div>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li class="current"><a class="more scrolly" href="#banner">Home</a></li>
+					<li><a href="#aboutMe" class="more scrolly">About Me</a></li>
+					<li><a href="#Portfolio" class="icon fa-angle-down more scrolly">Portfolio</a>
+						<ul>
+							<li><a href="#option1" class="more scrolly">The Candidate Review</a></li>
+							<li><a href="#option2" class="more scrolly">Oatmeal Gamification</a></li>
+							<!-- <li>
+												<a href="#">Submenu</a>
+												<ul>
+													<li><a href="#">Option One</a></li>
+													<li><a href="#">Option Two</a></li>
+													<li><a href="#">Option Three</a></li>
+													<li><a href="#">Option Four</a></li>
+												</ul>
+											</li> -->
+						</ul>
+					</li>
+					<li><a href="#skills" class="more scrolly">Skills</a></li>
+					<li><a href="#contactInfo" class="more scrolly">Contact Info</a></li>
+					<!-- <li><a href="elements.html">Elements</a></li> -->
+				</ul>
+			</nav>
+
+		</header>
+
+		<!-- Banner -->
+		<section id="banner">
+			<div class="content">
+				<h1 class='solid'>Steven Bready</h1>
+				<p class='solid'>Web Developer</p>
+			</div>
+		</section>
+
+		<!-- Section -->
+		<section class="main accent2" id='aboutMe'>
+			<header>
+				<h2>About Me</h2>
+				<p>I have always had an active imagination. When I was young I wanted to be an inventor. I had no real notion of what I wanted to invent, but I knew that was the direction that my life would take me. Although I could not draw, I would feebly try to put down on paper some form of what my mind was creating... clocks, robots, drones, watches, computers, it didn't really matter as long as I thought it was an improvement. I have grown older, but the drive to create has only grown stronger. Although I still cannot draw, my mind still creates. For "thought is the original source of all wealth, all success, all material gain, all great discoveries and inventions, and of all achievement." This drive to create has led me to the world of computer science. As a developer, I embrace constant challenges and innovation. You can follow some of my work here!</p>
+			</header>
+		</section>
+
+
+
+		<!-- Section -->
+		<section class="main alt" id='Portfolio'>
+			<header>
+				<h2>Portfolio</h2>
+				<p>Here is a sample of my work</p>
+			</header>
+			<div class="inner">
+				<article class="post style2" id='option1'>
+					<div class="content">
+						<header>
+							<span class="category">Personally Developed Web App</span>
+							<h3>The Candidate Review</h3>
+						</header>
+						<p>The Candidate Review was created as an educational tool catered for the voting masses. This allows upcoming candidates to create profiles of their positions based on the position they are seeking. </p>
+						<h5>Technology Used:</h5>
+						<p>React | Redux | NodeJS | MassiveJS | Material UI | PostgreSQL | AmazonS3 | Auth0</p>
+						<ul>
+							<li>React implemented to help display changing information across reusable components.</li>
+							<li>Material UI to create stepper processes for user and candidate profile create.</li>
+							<li>Heavily integrated Redux throughout site to store candidate and user data.</li>
+							<li>Data heavy creating atmosphere to better understand data parsing and data types.</li>
+							<li>RESTful API integration throughout backend and on Redux reducers.</li>
+						</ul>
+
+						<ul class="actions">
+							<li><a href="http://www.thecandidatereview.com" target='_blank' class="button small fit">Live Site</a></li>
+							<li><a href='https://github.com/sbready/candidate-review' target='_blank' class="button small fit">GitHub</a></li>
+							<li><a href='#' target='_blank' class="button small fit">Video Walkthrough</a></li>
+						</ul>
+					</div>
+
+					<!-- First slideshow -->
+
+					<div class="slideshow">
+						<!-- <img src="images/pic05.jpg" alt="" /> -->
+
+						<!-- Slideshow container -->
+						<div class="slideshow-container">
+
+							<!-- Full-width images with number and caption text -->
+							<div class="mySlides fade">
+								<img class='slideshowImg' src="./images/candidate-review-pics/cr homepage.png" alt="">
+							</div>
+
+							<div class="mySlides fade">
+								<img class='slideshowImg' src="./images/candidate-review-pics/cr register a candidate.png" alt="">
+							</div>
+
+							<div class="mySlides fade">
+								<img class='slideshowImg' src="./images/candidate-review-pics/date picker.png" alt="">
+							</div>
+
+							<!-- Next and previous buttons -->
+							<a class="prev1" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next1" onclick="plusSlides(1)">&#10095;</a>
+						</div>
+						<br>
+
+						<!-- The dots/circles -->
+						<div style="text-align:center">
+							<span class="dot" onclick="currentSlide(1)"></span>
+							<span class="dot" onclick="currentSlide(2)"></span>
+							<span class="dot" onclick="currentSlide(3)"></span>
+						</div>
+					</div>
+				</article>
+
+				<article class="post style2 alt" id='option2'>
+					<div class="content">
+						<header>
+							<span class="category">Group Developed Web App</span>
+							<h3>Oatmeal Gamification</h3>
+						</header>
+						<p>Oatmeal is an interactive CRM/Gamification platform built to motivate and stimulate user attention and focus through live-updating interactions. </p>
+						<h5>Technology Used:</h5>
+						<p>React | Redux | NodeJS | MassiveJS | Semantic UI | PostgreSQL | AmazonS3 | Socket.io | lodash</p>
+						<ul>
+							<li>React implemented to create interactive and independent components to display information based on challenge or badge variables designed by the user.</li>
+							<li>Responsive with use of Media Queries and Semantic UI elements creating a seamless user interface on desktop, tablet, or mobile devices.</li>
+							<li>Mini-modeled CRM created in order to have interactive data response on the gamification platform.</li>
+							<li>Socket.io integrated to display live-updating data split by overall aggregated information and rooms detailing individual standings</li>
+							<li>Images interact with Amazon S3 services through automatic file upload/download components</li>
+						</ul>
+						<ul class="actions">
+							<li>
+								<a href="http://oatmeal.devmtn-projects.com/#/" target='_blank' class="button small fit">Live Site</a>
+							</li>
+							<li>
+								<a href="https://github.com/JKSGAME/oatmeal" target='_blank' class="button small fit">GitHub</a>
+							</li>
+							<li>
+								<a href="#" target='_blank' class="button small fit">Video Walkthrough</a>
+							</li>
+						</ul>
+					</div>
+
+						<!-- Second slideshow -->
+
+						<div class="slideshow">
+								<!-- <img src="images/pic06.jpg" alt="" /> -->
+								
+								<!-- Slideshow container -->
+								<div class="slideshow-container">
+		
+									<!-- Full-width images with number and caption text -->
+									<div class="mySlides2 fade">
+										<img class='slideshowImg2' src="./images/oatmeal-pics/oatmeal dashboard.png" alt="">
+									</div>
+		
+									<div class="mySlides2 fade">
+										<img class='slideshowImg2' src="./images/oatmeal-pics/oatmeal leaderboard.png" alt="">
+									</div>
+		
+									<div class="mySlides2 fade">
+										<img class='slideshowImg2' src="./images/oatmeal-pics/oatmeal create badge.png" alt="">
+									</div>
+		
+									<div class="mySlides2 fade">
+										<img class='slideshowImg2' src="./images/oatmeal-pics/oatmeal badges.png" alt="">
+									</div>
+		
+									<!-- Next and previous buttons -->
+									<a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+									<a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+								</div>
+								<br>
+		
+								<!-- The dots/circles -->
+								<div style="text-align:center">
+									<span class="dot2" onclick="currentSlide2(1)"></span>
+									<span class="dot2" onclick="currentSlide2(2)"></span>
+									<span class="dot2" onclick="currentSlide2(3)"></span>
+									<span class="dot2" onclick="currentSlide2(4)"></span>
+								</div>
+							</div>
+				</article>
+			</div>
+		</section>
+
+
+
+		<!-- Section -->
+		<section class="main skills" id='skills'>
+			<header>
+				<h2>Skills</h2>
+			</header>
+			<div class="inner">
+				<ul class="faces">
+					<li>
+						<span class="image">
+							<img class="react" src="images/icons/react.png" alt="" />
+						</span>
+						<h3>React</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img class="node" src="images/icons/node.png" alt="" />
+						</span>
+						<h3>Node.js</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img src="images/icons/javascript.png" alt="" />
+						</span>
+						<h3>JavaScript</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img src="images/icons/express.png" alt="" />
+						</span>
+						<h3>Express.js</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img src="images/icons/auth0.png" alt="" />
+						</span>
+						<h3>Auth0</h3>
+					</li>
+				</ul>
+
+				<ul class="faces">
+					<li>
+						<span class="image">
+							<img src="images/icons/html.png" alt="" />
+						</span>
+						<h3>HTML5</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img src="images/icons/css.png" alt="" />
+						</span>
+						<h3>CSS3</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img src="images/icons/angular.png" alt="" />
+						</span>
+						<h3>Angular.js</h3>
+					</li>
+
+					<li>
+						<span class="image">
+							<img src="images/icons/postgresql.png" alt="" />
+						</span>
+						<h3>PostgreSQL</h3>
+					</li>
+					<li>
+						<span class="image">
+							<img src="images/icons/jest.png" alt="" />
+						</span>
+						<h3>Jest</h3>
+					</li>
+				</ul>
+				<div class="skills">
+					<h3>And More!</h3>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section -->
+		<section class="main alt special" id='contactInfo'>
+			<header class="contact">
+				<h2>Get in touch</h2>
+				<p>Feel free to reach out anytime! Message me here or connect with me on Linkedin.</p>
+			</header>
+			<div class="inner narrow">
+
+				<form action="https://formspree.io/stevenbready@gmail.com" method="POST">
+					<div class="field half">
+						<input name="name" id="name" placeholder="Name" type="text" />
+					</div>
+					<div class="field half">
+						<input name="email" id="email" placeholder="Email" type="email" />
+					</div>
+					<div class="field">
+						<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+					</div>
+					<ul class="actions">
+						<li>
+							<button class="button next" type="submit">Send Message</button>
+						</li>
+						<li></li>
+						<li></li>
+					</ul>
+				</form>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<ul class="icons">
+				<!-- <li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+				<li><a href="https://www.linkedin.com/in/stevenbready/" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/sbready" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				<li><a href="https://www.instagram.com/sbready/" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+				<li><a href="https://www.facebook.com/steven.bready.90" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+				<!-- <li><a href="#" class="icon alt fa-phone"><span class="label">Phone</span></a></li> -->
+				<!-- <li><a href="#" class="icon alt fa-envelope-o"><span class="label">Email</span></a></li> -->
+			</ul>
+			<p class="copyright">&copy; Steven Bready -- All rights reserved.</p>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/skel.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="function.js"></script>
+	<script src="https://use.fontawesome.com/0e8aad8b0b.js"></script>
+
+</body>
+
+</html>
